@@ -1,10 +1,10 @@
 import VideoItem from './components/VideoItem';
 import VideoList from './components/VideoList';
-
+import style from './App.module.css';
 const App = () => {
 	const time = 60;
 	return (
-		<div>
+		<div className={style.container}>
 			<VideoList title='Programacion'>
 				<VideoItem
 					title='Curso de React'

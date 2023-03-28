@@ -1,5 +1,6 @@
+import style from './VideoList.module.css';
 const VideoList = ({ title, children }) => (
-	<div>
+	<div className={style.container}>
 		<h1>{title}</h1>
 		{children}
 	</div>
